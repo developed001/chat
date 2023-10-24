@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.chat {
+  margin: 2rem auto;
+  padding: 2rem;
+  max-width: 1000px;
+  height: 400px;
+  box-shadow: 0px 0px 12px 8px gray;
+  border-radius: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  overflow-y: auto;
+}
+
+.form {
+  margin: auto;
+  max-width: 1000px;
+  display: flex;
+}
+.form .pers__1 {
+  width: 50%;
+}
+.form .pers__1 input {
+  width: 80%;
+  padding: 0.5rem;
+}
+.form .pers__1 button {
+  width: 15%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  color: white;
+  background-color: rgb(0, 150, 150);
+  border: none;
+  border-radius: 15px;
+}
+.form .pers__2 {
+  width: 50%;
+}
+.form .pers__2 input {
+  width: 80%;
+  padding: 0.5rem;
+}
+.form .pers__2 button {
+  width: 15%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  color: white;
+  background-color: rgb(0, 150, 150);
+  border: none;
+  border-radius: 15px;
+}
